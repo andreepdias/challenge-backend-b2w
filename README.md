@@ -33,7 +33,7 @@ O endpoint criado pode ser testado pela URL:
 
 #### Resumo
 
-O segundo desafio consiste em criar um query SQL capaz de filtrar registros de uma tabela de eventos. Os requerimentos são os seguintes: "Para cada *event_type* com mais de um registro, retornar a diferença entre o penúltimo e o último valor (em termos do atributo *time*). A tabela deve ser ordenada por *time* em ordem crescente."
+O segundo desafio consiste em criar um query SQL capaz de filtrar registros de uma tabela de eventos. Os requerimentos são os seguintes: "Para cada *event_type* com mais de um registro, retornar a diferença entre o penúltimo e o último valor (em termos do atributo *time*). A tabela deve ser ordenada por *event_type* em ordem crescente."
 
 Ou seja, uma query capaz de agrupar registros; calcular diferença entre valores de linhas diferentes; reduzir um grupo em apenas um registro, contendo o valor da diferença.
 
